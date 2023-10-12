@@ -7,3 +7,10 @@
 header {
   background-color: black;
 }
+header ul {
+  list-style: none;
+}
+header ul li {
+  text-decoration: none;
+  display: inline-block;
+}
