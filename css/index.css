@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -9,6 +10,7 @@ header {
 }
 header ul {
   list-style: none;
+  padding-top: 10px;
 }
 header ul li {
   text-decoration: none;
