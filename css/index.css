@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
 }
 
 header {
   background-color: black;
+  font-family: "Roboto", sans-serif;
 }
 header ul {
   list-style: none;
