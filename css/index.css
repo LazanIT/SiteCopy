@@ -11,13 +11,37 @@ header {
 header .pre-header {
   background: rgb(3, 2, 13);
   background: linear-gradient(90deg, rgb(3, 2, 13) 6%, rgb(73, 73, 75) 37%, rgb(66, 71, 71) 99%);
-  height: 30px;
+  height: 50px;
   color: wheat;
   display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
   padding: 15px;
+}
+header .pre-header select {
+  background-color: #837e7e;
+  overflow: hidden;
+  border: none;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  outline: none;
+  border-radius: 20px;
+  height: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  flex: 1;
+}
+header .pre-header select .option {
+  padding: 20px;
+}
+header .pre-header h3 {
+  color: #837e7e;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
 }
 header ul {
   list-style: none;

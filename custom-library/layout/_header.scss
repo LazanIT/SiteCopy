@@ -10,13 +10,37 @@ header {
       rgba(73, 73, 75, 1) 37%,
       rgba(66, 71, 71, 1) 99%
     );
-    height: 30px;
+    height: 50px;
     color: wheat;
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
     padding: 15px;
+    select {
+      background-color: #837e7e;
+      overflow: hidden;
+      border: none;
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      outline: none;
+      border-radius: 20px;
+      height: 30px;
+      font-size: 1.5rem;
+      font-weight: bold;
+      flex: 1;
+      .option {
+        padding: 20px;
+      }
+    }
+    h3 {
+      color: #837e7e;
+      letter-spacing: 1px;
+      font-size: 1.5rem;
+    }
   }
   ul {
     list-style: none;
