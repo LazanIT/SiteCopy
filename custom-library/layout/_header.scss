@@ -10,7 +10,7 @@ header {
       rgba(73, 73, 75, 1) 37%,
       rgba(66, 71, 71, 1) 99%
     );
-    height: 50px;
+    height: 40px;
     color: wheat;
     display: flex;
     justify-content: space-between;
@@ -27,19 +27,15 @@ header {
       align-items: center;
       text-align: center;
       outline: none;
-      border-radius: 20px;
+      border-radius: 15px;
       height: 30px;
-      font-size: 1.5rem;
+      font-size: 1.1rem;
       font-weight: bold;
-      flex: 1;
-      .option {
-        padding: 20px;
-      }
     }
     h3 {
       color: #837e7e;
       letter-spacing: 1px;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   }
   ul {
@@ -59,7 +55,7 @@ header {
       }
 
       &:first-child {
-        top: 5px;
+        top: 3px;
         a:hover {
           &:after {
             display: none;

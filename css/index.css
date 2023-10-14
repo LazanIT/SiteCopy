@@ -11,7 +11,7 @@ header {
 header .pre-header {
   background: rgb(3, 2, 13);
   background: linear-gradient(90deg, rgb(3, 2, 13) 6%, rgb(73, 73, 75) 37%, rgb(66, 71, 71) 99%);
-  height: 50px;
+  height: 40px;
   color: wheat;
   display: flex;
   justify-content: space-between;
@@ -29,19 +29,15 @@ header .pre-header select {
   align-items: center;
   text-align: center;
   outline: none;
-  border-radius: 20px;
+  border-radius: 15px;
   height: 30px;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: bold;
-  flex: 1;
-}
-header .pre-header select .option {
-  padding: 20px;
 }
 header .pre-header h3 {
   color: #837e7e;
   letter-spacing: 1px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 header ul {
   list-style: none;
@@ -59,7 +55,7 @@ header ul li:hover {
   transform: translateY(-5px);
 }
 header ul li:first-child {
-  top: 5px;
+  top: 3px;
 }
 header ul li:first-child a:hover:after {
   display: none;

@@ -13,5 +13,8 @@
     "gulp-purgecss": "^5.0.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.69.2"
+  },
+  "dependencies": {
+    "boxicons": "^2.1.4"
   }
 }
