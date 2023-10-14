@@ -11,33 +11,33 @@ header {
 header .pre-header {
   background: rgb(3, 2, 13);
   background: linear-gradient(90deg, rgb(3, 2, 13) 6%, rgb(73, 73, 75) 37%, rgb(66, 71, 71) 99%);
-  height: 40px;
+  height: 30px;
   color: wheat;
   display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  padding: 15px;
+  padding: 10px 15px 10px 15px;
 }
 header .pre-header select {
   background-color: #837e7e;
   overflow: hidden;
   border: none;
-  width: 200px;
+  width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   outline: none;
   border-radius: 15px;
-  height: 30px;
+  height: 25px;
   font-size: 1.1rem;
   font-weight: bold;
 }
-header .pre-header h3 {
+header .pre-header .title {
   color: #837e7e;
-  letter-spacing: 1px;
-  font-size: 1.2rem;
+  font-size: 2rem;
+  padding-top: 5px;
 }
 header ul {
   list-style: none;
