@@ -8,6 +8,17 @@ header {
   background-color: black;
   font-family: "Roboto", sans-serif;
 }
+header .pre-header {
+  background: rgb(3, 2, 13);
+  background: linear-gradient(90deg, rgb(3, 2, 13) 6%, rgb(73, 73, 75) 37%, rgb(66, 71, 71) 99%);
+  height: 30px;
+  color: wheat;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+}
 header ul {
   list-style: none;
   padding-top: 10px;
@@ -16,10 +27,15 @@ header ul li {
   text-decoration: none;
   display: inline-block;
   transition: all 0.3s linear;
-  margin: 0 0 10px 30px;
+  margin: 0px 0 10px 30px;
+  position: relative;
+  top: -10px;
 }
 header ul li:hover {
   transform: translateY(-5px);
+}
+header ul li:first-child {
+  top: 5px;
 }
 header ul li:first-child a:hover:after {
   display: none;

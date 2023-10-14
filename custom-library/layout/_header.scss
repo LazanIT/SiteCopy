@@ -1,6 +1,23 @@
 header {
   background-color: black;
   font-family: $roboto-font;
+
+  .pre-header {
+    background: rgb(3, 2, 13);
+    background: linear-gradient(
+      90deg,
+      rgba(3, 2, 13, 1) 6%,
+      rgba(73, 73, 75, 1) 37%,
+      rgba(66, 71, 71, 1) 99%
+    );
+    height: 30px;
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+  }
   ul {
     list-style: none;
     padding-top: 10px;
@@ -9,13 +26,16 @@ header {
       text-decoration: none;
       display: inline-block;
       transition: all 0.3s linear;
-      margin: 0 0 10px 30px;
+      margin: 0px 0 10px 30px;
+      position: relative;
+      top: -10px;
 
       &:hover {
         transform: translateY(-5px);
       }
 
       &:first-child {
+        top: 5px;
         a:hover {
           &:after {
             display: none;
