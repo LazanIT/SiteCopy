@@ -85,3 +85,14 @@ header ul li a:after {
   width: 100%;
   position: absolute;
 }
+
+section.hero h1 {
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+}
+section.hero h1 span {
+  font-weight: 600;
+}
