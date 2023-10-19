@@ -131,6 +131,8 @@ section.featured {
 section.featured .featured-item {
   color: rgb(255, 255, 255);
   display: flex;
+  margin-top: -100px;
+  padding: 10px;
   text-align: center;
   justify-content: center;
   flex-direction: column;
@@ -139,10 +141,32 @@ section.featured .featured-item {
 section.featured .featured-item img {
   max-width: 40%;
 }
-section.featured .featured-item a {
-  text-decoration: none;
-  color: white;
-}
 section.featured .featured-item P {
   max-width: 400px;
+  padding: 5px 0 20px 0;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: gray;
+  opacity: 80%;
+  font-weight: bolder;
+}
+section.featured .featured-item h2 {
+  font-size: 2rem;
+  padding: 0 0 10px 0;
+  color: gray;
+}
+section.featured .featured-item button {
+  background-color: orangered;
+  outline: none;
+  border: none;
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+section.featured .featured-item button a {
+  text-decoration: none;
+  color: #373737;
+  font-weight: bolder;
+  padding: 5px;
 }

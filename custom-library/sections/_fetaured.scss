@@ -7,6 +7,8 @@ section.featured {
   .featured-item {
     color: rgb(255, 255, 255);
     display: flex;
+    margin-top: -100px;
+    padding: 10px;
 
     text-align: center;
     justify-content: center;
@@ -16,13 +18,37 @@ section.featured {
       max-width: 40%;
     }
 
-    a {
-      text-decoration: none;
-      color: white;
-    }
-
     P {
       max-width: 400px;
+      padding: 5px 0 20px 0;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      color: gray;
+      opacity: 80%;
+      font-weight: bolder;
+    }
+    h2 {
+      font-size: 2rem;
+      padding: 0 0 10px 0;
+      color: gray;
+    }
+
+    button {
+      background-color: orangered;
+      outline: none;
+      border: none;
+      width: 30%;
+      height: 50px;
+      border-radius: 10px;
+      font-size: 1.2rem;
+
+      a {
+        text-decoration: none;
+        color: #373737;
+        font-weight: bolder;
+
+        padding: 5px;
+      }
     }
   }
 }
