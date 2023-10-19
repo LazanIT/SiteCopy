@@ -22,6 +22,9 @@ section.hero {
       animation: hue 10s infinite linear;
     }
   }
+  video {
+    width: 100%;
+  }
 }
 
 @-webkit-keyframes hue {
