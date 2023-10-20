@@ -243,8 +243,17 @@ section.products .box-holder .product-item {
 section.products .box-holder .product-item .product-info {
   display: block;
   padding: 15px;
-  text-align: center;
+  text-align: left;
   height: 600px;
+}
+section.products .box-holder .product-item .product-info h3 {
+  font-size: 2rem;
+  color: rgb(189, 186, 186);
+}
+section.products .box-holder .product-item .product-info p {
+  color: rgb(189, 186, 186);
+  font-size: 1.2rem;
+  font-weight: bolder;
 }
 section.products .box-holder .overlay {
   display: none;
