@@ -10,4 +10,11 @@ section.products {
     margin: auto;
     color: white;
   }
+
+  .product-item {
+    display: block;
+    background-image: url(/img/keyboard-4759500_1920.jpg);
+    padding: 15px;
+    text-align: center;
+  }
 }
