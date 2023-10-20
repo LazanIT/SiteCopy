@@ -4,17 +4,38 @@ section.products {
   justify-content: center;
   align-items: center;
 
+  .container {
+    padding: 20px;
+    margin-top: 100px;
+  }
   h2 {
-    max-width: 800px;
+    max-width: 700px;
     text-align: center;
     margin: auto;
     color: white;
+    margin-bottom: 50px;
   }
-
+  .box-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
   .product-item {
-    display: block;
-    background-image: url(/img/keyboard-4759500_1920.jpg);
-    padding: 15px;
-    text-align: center;
+    max-width: 100%;
+
+    .product-info {
+      display: block;
+      background-image: url(/img/keyboard-4759500_1920.jpg);
+      padding: 15px;
+      text-align: center;
+      height: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 10px;
+    }
+  }
+  .overlay {
+    display: none;
   }
 }

@@ -8,6 +8,10 @@ body {
   background-color: black;
 }
 
+.container {
+  width: 1420px;
+}
+
 header {
   background-color: black;
   font-family: "Roboto", sans-serif;
@@ -199,15 +203,36 @@ section.products {
   justify-content: center;
   align-items: center;
 }
+section.products .container {
+  padding: 20px;
+  margin-top: 100px;
+}
 section.products h2 {
-  max-width: 800px;
+  max-width: 700px;
   text-align: center;
   margin: auto;
   color: white;
+  margin-bottom: 50px;
+}
+section.products .box-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
 }
 section.products .product-item {
+  max-width: 100%;
+}
+section.products .product-item .product-info {
   display: block;
   background-image: url(/img/keyboard-4759500_1920.jpg);
   padding: 15px;
   text-align: center;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+section.products .overlay {
+  display: none;
 }
