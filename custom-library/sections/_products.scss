@@ -20,13 +20,19 @@ section.products {
   .box-holder {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 2px;
 
     .background-one {
       background-image: url(/img/keyboard-4759500_1920.jpg);
     }
     .background-two {
       background-image: url(/img/razer-4819693_1920.jpg);
+    }
+    .background-three {
+      background-image: url(/img/mouse-670002_1920.jpg);
+    }
+    .background-four {
+      background-image: url(/img/technology-3428923_1920.jpg);
     }
     .product-item {
       max-width: 100%;
