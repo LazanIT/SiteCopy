@@ -43,11 +43,16 @@ header .pre-header .title {
   font-size: 2rem;
   padding-top: 5px;
 }
-header ul {
+header nav {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+}
+header nav ul {
   list-style: none;
   padding-top: 10px;
 }
-header ul li {
+header nav ul li {
   text-decoration: none;
   display: inline-block;
   transition: all 0.3s linear;
@@ -55,29 +60,29 @@ header ul li {
   position: relative;
   top: -10px;
 }
-header ul li:hover {
+header nav ul li:hover {
   transform: translateY(-5px);
 }
-header ul li:first-child {
+header nav ul li:first-child {
   top: 3px;
 }
-header ul li:first-child a:hover:after {
+header nav ul li:first-child a:hover:after {
   display: none;
 }
-header ul li a {
+header nav ul li a {
   color: white;
   font-size: 1rem;
   font-weight: bold;
   text-decoration: none;
   position: relative;
 }
-header ul li a:hover {
+header nav ul li a:hover {
   color: #837e7e;
 }
-header ul li a:hover:after {
+header nav ul li a:hover:after {
   display: block;
 }
-header ul li a:after {
+header nav ul li a:after {
   content: "";
   display: none;
   background-color: #837e7e;
@@ -127,6 +132,7 @@ section.featured {
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   grid-gap: 1rem;
   background: linear-gradient(to top, #1b1b1b 0%, #373737 100%);
+  padding-bottom: 100px;
 }
 section.featured:hover .featured-item {
   filter: blur(20px);
@@ -185,4 +191,17 @@ section.featured .featured-item button a {
 }
 section.featured .featured-item button:hover {
   transform: translateX(3px);
+}
+
+section.products {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.products h2 {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  color: white;
 }

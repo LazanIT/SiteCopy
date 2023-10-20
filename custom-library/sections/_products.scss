@@ -1,0 +1,13 @@
+section.products {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    color: white;
+  }
+}

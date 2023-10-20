@@ -38,55 +38,60 @@ header {
       padding-top: 5px;
     }
   }
-  ul {
-    list-style: none;
-    padding-top: 10px;
+  nav {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    ul {
+      list-style: none;
+      padding-top: 10px;
 
-    li {
-      text-decoration: none;
-      display: inline-block;
-      transition: all 0.3s linear;
-      margin: 0px 0 10px 30px;
-      position: relative;
-      top: -10px;
-
-      &:hover {
-        transform: translateY(-5px);
-      }
-
-      &:first-child {
-        top: 3px;
-        a:hover {
-          &:after {
-            display: none;
-          }
-        }
-      }
-
-      a {
-        color: white;
-        font-size: 1rem;
-        font-weight: bold;
+      li {
         text-decoration: none;
+        display: inline-block;
+        transition: all 0.3s linear;
+        margin: 0px 0 10px 30px;
         position: relative;
-
-        // Hover pisemo na ovaj nacin
+        top: -10px;
 
         &:hover {
-          color: #837e7e;
+          transform: translateY(-5px);
+        }
 
-          &:after {
-            display: block;
+        &:first-child {
+          top: 3px;
+          a:hover {
+            &:after {
+              display: none;
+            }
           }
         }
 
-        &:after {
-          content: "";
-          display: none;
-          background-color: #837e7e;
-          height: 3px;
-          width: 100%;
-          position: absolute;
+        a {
+          color: white;
+          font-size: 1rem;
+          font-weight: bold;
+          text-decoration: none;
+          position: relative;
+
+          // Hover pisemo na ovaj nacin
+
+          &:hover {
+            color: #837e7e;
+
+            &:after {
+              display: block;
+            }
+          }
+
+          &:after {
+            content: "";
+            display: none;
+            background-color: #837e7e;
+            height: 3px;
+            width: 100%;
+            position: absolute;
+          }
         }
       }
     }

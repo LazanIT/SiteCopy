@@ -3,6 +3,7 @@ section.featured {
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   grid-gap: 1rem;
   background: linear-gradient(to top, #1b1b1b 0%, #373737 100%);
+  padding-bottom: 100px;
 
   &:hover .featured-item {
     filter: blur(20px);
