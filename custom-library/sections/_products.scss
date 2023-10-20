@@ -13,29 +13,37 @@ section.products {
     text-align: center;
     margin: auto;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
+    font-size: 2rem;
+    font-weight: lighter;
   }
   .box-holder {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
-  }
-  .product-item {
-    max-width: 100%;
 
-    .product-info {
-      display: block;
+    .background-one {
       background-image: url(/img/keyboard-4759500_1920.jpg);
-      padding: 15px;
-      text-align: center;
-      height: 600px;
+    }
+    .background-two {
+      background-image: url(/img/razer-4819693_1920.jpg);
+    }
+    .product-item {
+      max-width: 100%;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       border-radius: 10px;
+      .product-info {
+        display: block;
+        padding: 15px;
+        text-align: center;
+        height: 600px;
+      }
     }
-  }
-  .overlay {
-    display: none;
+
+    .overlay {
+      display: none;
+    }
   }
 }
