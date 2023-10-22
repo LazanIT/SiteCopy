@@ -283,11 +283,8 @@ section.products .box-holder .overlay {
   bottom: 0;
   right: 0;
   left: 0;
-  text-align: center;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+  flex-direction: column;
 }
 section.products .box-holder .overlay button {
   color: white;
@@ -302,4 +299,8 @@ section.products .box-holder .overlay button a {
   font-size: 1rem;
   color: rgb(48, 46, 46);
   font-weight: bold;
+}
+section.products .box-holder .overlay i {
+  color: gray;
+  font-size: 4rem;
 }

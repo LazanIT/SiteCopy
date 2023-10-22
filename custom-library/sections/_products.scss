@@ -92,11 +92,8 @@ section.products {
       bottom: 0;
       right: 0;
       left: 0;
-      text-align: center;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
+      flex-direction: column;
       button {
         color: white;
         width: 120px;
@@ -113,6 +110,10 @@ section.products {
           color: rgb(48, 46, 46);
           font-weight: bold;
         }
+      }
+      i {
+        color: gray;
+        font-size: 4rem;
       }
     }
   }
