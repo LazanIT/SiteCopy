@@ -40,11 +40,11 @@ section.products {
       background-repeat: no-repeat;
       background-size: cover;
       border-radius: 10px;
-      transition: 0.3s;
+      transition: all 0.3s linear;
       position: relative;
 
       &:hover {
-        transition: 0.3s;
+        transition: all 0.3s linear;
         .overlay {
           display: block;
           opacity: 0.7;

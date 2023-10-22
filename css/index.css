@@ -239,11 +239,11 @@ section.products .box-holder .product-item {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
-  transition: 0.3s;
+  transition: all 0.3s linear;
   position: relative;
 }
 section.products .box-holder .product-item:hover {
-  transition: 0.3s;
+  transition: all 0.3s linear;
 }
 section.products .box-holder .product-item:hover .overlay {
   display: block;
