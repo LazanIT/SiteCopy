@@ -219,7 +219,7 @@ section.products h2 {
 section.products .box-holder {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 2px;
+  grid-gap: 4px;
 }
 section.products .box-holder .background-one {
   background-image: url(/img/keyboard-4759500_1920.jpg);
@@ -257,7 +257,6 @@ section.products .box-holder .product-item:hover .overlay {
 section.products .box-holder .product-item:hover .overlay button:hover {
   transition: all 0.4s ease-in-out;
   transform: scale(1.1);
-  opacity: 1;
 }
 section.products .box-holder .product-item .product-info {
   display: block;
@@ -301,6 +300,6 @@ section.products .box-holder .overlay button a {
   font-weight: bold;
 }
 section.products .box-holder .overlay i {
-  color: gray;
+  color: orangered;
   font-size: 4rem;
 }

@@ -20,7 +20,7 @@ section.products {
   .box-holder {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2px;
+    grid-gap: 4px;
 
     .background-one {
       background-image: url(/img/keyboard-4759500_1920.jpg);
@@ -60,7 +60,6 @@ section.products {
             &:hover {
               transition: all 0.4s ease-in-out;
               transform: scale(1.1);
-              opacity: 1;
             }
           }
         }
@@ -112,7 +111,7 @@ section.products {
         }
       }
       i {
-        color: gray;
+        color: orangered;
         font-size: 4rem;
       }
     }
