@@ -24,6 +24,7 @@ section.products {
 
     .background-one {
       background-image: url(/img/keyboard-4759500_1920.jpg);
+      filter: blur(0);
     }
     .background-two {
       background-image: url(/img/razer-4819693_1920.jpg);
@@ -34,6 +35,7 @@ section.products {
     .background-four {
       background-image: url(/img/technology-3428923_1920.jpg);
     }
+
     .product-item {
       max-width: 100%;
       background-position: center;
@@ -44,15 +46,23 @@ section.products {
       position: relative;
 
       &:hover {
-        transition: all 0.3s linear;
         .overlay {
+          transition: all 0.3s linear;
           display: block;
-          opacity: 0.7;
+          opacity: 0.8;
           text-align: center;
           display: flex;
           justify-content: center;
           align-items: center;
           height: 100%;
+          cursor: pointer;
+          button {
+            &:hover {
+              transition: all 0.4s ease-in-out;
+              transform: scale(1.1);
+              opacity: 1;
+            }
+          }
         }
       }
       .product-info {
@@ -89,8 +99,20 @@ section.products {
       height: 100%;
       button {
         color: white;
+        width: 120px;
+        height: 70px;
+        background-color: orangered;
+        border-radius: 10px;
 
-        width: 50px;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+          rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+          rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        a {
+          text-decoration: none;
+          font-size: 1rem;
+          color: rgb(48, 46, 46);
+          font-weight: bold;
+        }
       }
     }
   }
