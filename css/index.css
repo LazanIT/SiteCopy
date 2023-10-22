@@ -142,6 +142,7 @@ section.featured:hover .featured-item {
   filter: blur(20px);
   transform: scale(0.8);
   opacity: 0.5;
+  cursor: pointer;
 }
 section.featured .featured-item {
   color: rgb(255, 255, 255);
