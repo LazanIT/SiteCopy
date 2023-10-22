@@ -246,17 +246,24 @@ section.products .box-holder .product-item {
 section.products .box-holder .product-item:hover .overlay {
   transition: all 0.3s linear;
   display: block;
-  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.7);
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
   cursor: pointer;
 }
-section.products .box-holder .product-item:hover .overlay button:hover {
+section.products .box-holder .product-item:hover .overlay button {
   transition: all 0.4s ease-in-out;
+  opacity: 1;
+}
+section.products .box-holder .product-item:hover .overlay button:hover {
   transform: scale(1.1);
+}
+section.products .box-holder .product-item:hover .overlay i {
+  opacity: 1;
 }
 section.products .box-holder .product-item .product-info {
   display: block;
@@ -275,15 +282,12 @@ section.products .box-holder .product-item .product-info p {
 }
 section.products .box-holder .overlay {
   display: none;
-  opacity: 0;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0);
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  display: flex;
-  flex-direction: column;
 }
 section.products .box-holder .overlay button {
   color: white;
@@ -291,6 +295,7 @@ section.products .box-holder .overlay button {
   height: 50px;
   background-color: orangered;
   border-radius: 10px;
+  opacity: 0;
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 section.products .box-holder .overlay button a {
@@ -302,4 +307,5 @@ section.products .box-holder .overlay button a {
 section.products .box-holder .overlay i {
   color: orangered;
   font-size: 4rem;
+  opacity: 0;
 }
