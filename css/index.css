@@ -113,6 +113,13 @@ section.hero h1 {
   gap: 20px;
   margin: 40px 0 50px 0;
 }
+@media screen and (max-width: 768px) {
+  section.hero h1 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
 section.hero h1 span {
   font-weight: 600;
   background-image: -webkit-linear-gradient(145deg, #f53939, #35fdb2);
@@ -139,7 +146,6 @@ section.featured {
   background: linear-gradient(to top, #1b1b1b 0%, #373737 100%);
   padding-bottom: 100px;
   z-index: 1;
-  width: 100%;
 }
 section.featured:hover .featured-item {
   filter: blur(20px);
@@ -157,6 +163,11 @@ section.featured .featured-item {
   flex-direction: column;
   align-items: center;
   transition: all 0.3s linear;
+}
+@media screen and (max-width: 768px) {
+  section.featured .featured-item {
+    width: 100%;
+  }
 }
 section.featured .featured-item:hover {
   filter: blur(0px);
