@@ -6,6 +6,11 @@ section.featured {
   padding-bottom: 100px;
   z-index: 1;
 
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
   &:hover .featured-item {
     filter: blur(20px);
     transform: scale(0.8);
@@ -24,6 +29,7 @@ section.featured {
     transition: all 0.3s linear;
     @media screen and (max-width: 768px) {
       width: 100%;
+      margin-top: 0;
     }
 
     &:hover {
@@ -36,7 +42,7 @@ section.featured {
       max-width: 40%;
     }
 
-    P {
+    p {
       max-width: 400px;
       padding: 5px 0 20px 0;
       font-size: 1.2rem;
