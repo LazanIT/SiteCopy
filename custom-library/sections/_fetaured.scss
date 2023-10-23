@@ -5,6 +5,7 @@ section.featured {
   background: linear-gradient(to top, #1b1b1b 0%, #373737 100%);
   padding-bottom: 100px;
   z-index: 1;
+  width: 100%;
 
   &:hover .featured-item {
     filter: blur(20px);
