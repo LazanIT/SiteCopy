@@ -28,7 +28,7 @@ section.products {
 
     @media screen and (max-width: $sm) {
       display: flex;
-      flex-wrap: wrap !important;
+      flex-direction: column;
       grid-gap: 15px;
     }
     .background-one {
@@ -83,17 +83,23 @@ section.products {
       .product-info {
         display: block;
         padding: 15px;
-        text-align: left;
+        text-align: end;
         height: 600px;
 
         h3 {
           font-size: 2rem;
           color: rgb(189, 186, 186);
+          @media screen and (max-width: $sm) {
+            font-size: 1.2rem;
+          }
         }
         p {
           color: rgb(189, 186, 186);
           font-size: 1.2rem;
           font-weight: bolder;
+          @media screen and (max-width: $sm) {
+            font-size: 0.9rem;
+          }
         }
       }
     }
@@ -123,12 +129,18 @@ section.products {
           font-size: 1rem;
           color: rgb(48, 46, 46);
           font-weight: bold;
+          @media screen and (max-width: $sm) {
+            font-size: 0.8rem;
+          }
         }
       }
       i {
         color: orangered;
         font-size: 4rem;
         opacity: 0;
+        @media screen and (max-width: $sm) {
+          font-size: 2rem;
+        }
       }
     }
   }

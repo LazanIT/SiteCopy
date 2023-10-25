@@ -283,7 +283,7 @@ section.products .box-holder {
 @media screen and (max-width: 575px) {
   section.products .box-holder {
     display: flex;
-    flex-wrap: wrap !important;
+    flex-direction: column;
     grid-gap: 15px;
   }
 }
@@ -334,17 +334,27 @@ section.products .box-holder .product-item:hover .overlay i {
 section.products .box-holder .product-item .product-info {
   display: block;
   padding: 15px;
-  text-align: left;
+  text-align: end;
   height: 600px;
 }
 section.products .box-holder .product-item .product-info h3 {
   font-size: 2rem;
   color: rgb(189, 186, 186);
 }
+@media screen and (max-width: 575px) {
+  section.products .box-holder .product-item .product-info h3 {
+    font-size: 1.2rem;
+  }
+}
 section.products .box-holder .product-item .product-info p {
   color: rgb(189, 186, 186);
   font-size: 1.2rem;
   font-weight: bolder;
+}
+@media screen and (max-width: 575px) {
+  section.products .box-holder .product-item .product-info p {
+    font-size: 0.9rem;
+  }
 }
 section.products .box-holder .overlay {
   display: none;
@@ -370,8 +380,18 @@ section.products .box-holder .overlay button a {
   color: rgb(48, 46, 46);
   font-weight: bold;
 }
+@media screen and (max-width: 575px) {
+  section.products .box-holder .overlay button a {
+    font-size: 0.8rem;
+  }
+}
 section.products .box-holder .overlay i {
   color: orangered;
   font-size: 4rem;
   opacity: 0;
+}
+@media screen and (max-width: 575px) {
+  section.products .box-holder .overlay i {
+    font-size: 2rem;
+  }
 }
