@@ -123,6 +123,8 @@ section.hero h1 {
     max-width: 100%;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    margin: 25px 0 25px 0;
   }
 }
 section.hero h1 span {
