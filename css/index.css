@@ -280,6 +280,13 @@ section.products .box-holder {
   grid-template-columns: 1fr 1fr;
   grid-gap: 4px;
 }
+@media screen and (max-width: 575px) {
+  section.products .box-holder {
+    display: flex;
+    flex-wrap: wrap !important;
+    grid-gap: 15px;
+  }
+}
 section.products .box-holder .background-one {
   background-image: url(/img/keyboard-4759500_1920.jpg);
   filter: blur(0);

@@ -26,6 +26,11 @@ section.products {
     grid-template-columns: 1fr 1fr;
     grid-gap: 4px;
 
+    @media screen and (max-width: $sm) {
+      display: flex;
+      flex-wrap: wrap !important;
+      grid-gap: 15px;
+    }
     .background-one {
       background-image: url(/img/keyboard-4759500_1920.jpg);
       filter: blur(0);
