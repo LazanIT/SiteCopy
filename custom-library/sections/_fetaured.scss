@@ -30,6 +30,7 @@ section.featured {
     @media screen and (max-width: 768px) {
       width: 100%;
       margin-top: 0;
+      padding: 5px;
     }
 
     &:hover {
@@ -40,6 +41,11 @@ section.featured {
     }
     img {
       max-width: 40%;
+      @media screen and (max-width: 768px) {
+        max-width: 65%;
+        padding: 5px;
+        margin-bottom: 0;
+      }
     }
 
     p {
@@ -50,11 +56,17 @@ section.featured {
       color: gray;
       opacity: 80%;
       font-weight: bolder;
+      @media screen and (max-width: 768px) {
+        font-size: 1rem;
+      }
     }
     h2 {
       font-size: 2rem;
       padding: 0 0 10px 0;
       color: gray;
+      @media screen and (max-width: 768px) {
+        font-size: 1.5rem;
+      }
     }
 
     button {
@@ -77,6 +89,9 @@ section.featured {
 
       &:hover {
         transform: translateX(3px);
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 0.9rem;
       }
     }
   }

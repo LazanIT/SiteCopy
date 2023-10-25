@@ -175,6 +175,7 @@ section.featured .featured-item {
   section.featured .featured-item {
     width: 100%;
     margin-top: 0;
+    padding: 5px;
   }
 }
 section.featured .featured-item:hover {
@@ -186,6 +187,13 @@ section.featured .featured-item:hover {
 section.featured .featured-item img {
   max-width: 40%;
 }
+@media screen and (max-width: 768px) {
+  section.featured .featured-item img {
+    max-width: 65%;
+    padding: 5px;
+    margin-bottom: 0;
+  }
+}
 section.featured .featured-item p {
   max-width: 400px;
   padding: 5px 0 20px 0;
@@ -195,10 +203,20 @@ section.featured .featured-item p {
   opacity: 80%;
   font-weight: bolder;
 }
+@media screen and (max-width: 768px) {
+  section.featured .featured-item p {
+    font-size: 1rem;
+  }
+}
 section.featured .featured-item h2 {
   font-size: 2rem;
   padding: 0 0 10px 0;
   color: gray;
+}
+@media screen and (max-width: 768px) {
+  section.featured .featured-item h2 {
+    font-size: 1.5rem;
+  }
 }
 section.featured .featured-item button {
   background-color: orangered;
@@ -218,6 +236,11 @@ section.featured .featured-item button a {
 }
 section.featured .featured-item button:hover {
   transform: translateX(3px);
+}
+@media screen and (max-width: 768px) {
+  section.featured .featured-item button {
+    font-size: 0.9rem;
+  }
 }
 
 section.products {
