@@ -53,6 +53,11 @@ header nav {
   background-color: black;
   width: 100%;
 }
+@media screen and (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+}
 header nav ul {
   list-style: none;
   padding-top: 10px;
