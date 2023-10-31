@@ -22,6 +22,10 @@ header {
       padding: 0;
       justify-content: center;
     }
+    @media screen and (max-width: $md) {
+      height: 50px;
+      justify-content: center;
+    }
     select {
       background-color: #837e7e;
       overflow: hidden;
@@ -36,12 +40,19 @@ header {
       height: 25px;
       font-size: 1.1rem;
       font-weight: bold;
+      @media screen and (max-width: $md) {
+        width: 250px;
+        height: 35px;
+      }
     }
     .title {
       color: #837e7e;
       font-size: 2rem;
       padding-top: 5px;
       @media screen and (max-width: $sm) {
+        display: none;
+      }
+      @media screen and (max-width: $md) {
         display: none;
       }
     }
@@ -52,6 +63,9 @@ header {
     background-color: black;
     width: 100%;
     @media screen and (max-width: $sm) {
+      display: none;
+    }
+    @media screen and (max-width: $md) {
       display: none;
     }
     ul {
