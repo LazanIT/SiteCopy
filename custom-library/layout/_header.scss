@@ -19,6 +19,8 @@ header {
     padding: 10px 15px 10px 15px;
     @media screen and (max-width: $sm) {
       height: 40px;
+      padding: 0;
+      justify-content: center;
     }
     select {
       background-color: #837e7e;
@@ -39,6 +41,9 @@ header {
       color: #837e7e;
       font-size: 2rem;
       padding-top: 5px;
+      @media screen and (max-width: $sm) {
+        display: none;
+      }
     }
   }
   nav {

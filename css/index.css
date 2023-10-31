@@ -30,6 +30,8 @@ header .pre-header {
 @media screen and (max-width: 575px) {
   header .pre-header {
     height: 40px;
+    padding: 0;
+    justify-content: center;
   }
 }
 header .pre-header select {
@@ -51,6 +53,11 @@ header .pre-header .title {
   color: #837e7e;
   font-size: 2rem;
   padding-top: 5px;
+}
+@media screen and (max-width: 575px) {
+  header .pre-header .title {
+    display: none;
+  }
 }
 header nav {
   position: fixed;
