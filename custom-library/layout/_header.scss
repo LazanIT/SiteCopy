@@ -17,7 +17,8 @@ header {
     text-align: center;
     align-items: center;
     padding: 10px 15px 10px 15px;
-    @media screen and(max-width: $sm) {
+    @media screen and (max-width: $sm) {
+      height: 40px;
     }
     select {
       background-color: #837e7e;
