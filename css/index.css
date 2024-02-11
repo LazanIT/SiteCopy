@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(2, 0, 0);
 }
 
 .container {
@@ -280,7 +280,7 @@ section.featured .featured-item button:hover {
 }
 @media screen and (max-width: 530px) {
   section.featured .featured-item button {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 
