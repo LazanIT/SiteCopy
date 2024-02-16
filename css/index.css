@@ -260,7 +260,7 @@ section.featured .featured-item h2 {
   }
 }
 section.featured .featured-item button {
-  background-color: orangered;
+  background-color: rgb(248, 78, 16);
   outline: none;
   border: none;
   width: 30%;
